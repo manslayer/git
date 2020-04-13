@@ -1,0 +1,40 @@
+1) initializing the git:
+    git init
+    git config --global user.email "manslayerbhanu@gmail.com" 
+    git config --global user.name "manslayer"
+
+2) adding files to staging area:
+    git add file_name
+
+3) adding all the files in the directory to staging area:
+    git add .
+
+4) to see the status of the files
+    git status
+
+5) to see the log
+    git log
+
+6) to go back to previous commit
+    git checkout commit_id
+
+7) to create branch
+    git branch branch_name
+
+8) to goto specific branch
+    git checkout branch_name
+
+9) to create and goto the branch simultaneously
+    git checkout -b branch_name
+
+10) to commit
+    git commit
+        or 
+    git commit -m "message"
+
+11) to merge branch with master
+    git merge branch_name
+
+12) push and existing repository
+    git remote add origin repository_link
+    git push -u origin master
